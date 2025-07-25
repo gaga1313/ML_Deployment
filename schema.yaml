@@ -4,7 +4,7 @@ COLUMNS:
   citric_acid: float
   residual_sugar: float
   chlorides: float
-  free_sulfur_dioxide: int
+  free_sulfur_dioxide: float
   total_sulfur_dioxide: float
   density: float
   pH: float
@@ -12,4 +12,5 @@ COLUMNS:
   alcohol: float
   quality: int
 
-TARGET_COLUMN: quality
+TARGET_COLUMN: 
+  name: quality
